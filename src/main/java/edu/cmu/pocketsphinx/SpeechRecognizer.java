@@ -201,6 +201,10 @@ public class SpeechRecognizer {
         return decoder;
     }
     
+    public AudioRecord getAudioRecord() {
+        return recorder;
+    }
+    
     /**
      * Shutdown the recognizer and release the recorder
      */
